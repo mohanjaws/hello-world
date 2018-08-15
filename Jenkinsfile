@@ -3,42 +3,42 @@ pipeline
 	agent any
 	stages
 	{
-		stage(MJ-Analyze)
+		stage('MJ-Analyze')
 		{
 			steps
 			{
 				echo 'Building'
 			}
 		}
-		stage(MJ-Build)
+		stage('MJ-Build')
 		{
 			steps
 			{
 				echo 'Building'
 			}
 		}
-		stage(MJ-Test)
+		stage('MJ-Test')
 		{
 			steps
 			{
 				echo 'Building'
 			}
 		}
-		stage(MJ-Deploy)
+		stage('MJ-Deploy')
 		{
 			steps
 			{
 				echo 'Building'
 			}
 		}
-		stage(MJ-Status)
+		stage('MJ-Status')
 		{
 			steps
 			{
 				echo 'Building'
 			}
 		}
-		stage(MJ-Artifacts)
+		stage('MJ-Artifacts')
 		{
 			steps
 			{
